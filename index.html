@@ -2,23 +2,113 @@
 <html>
 <head>
 	<title>
-		home page
+		Sumit Kushwah Portfolio
 	</title>
 	<!-- CSS only -->
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
 	<!-- JavaScript Bundle with Popper -->
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
 	<style>
-		
+		body {
+			margin-top: 50px;
+			font-family: "Open Sans";
+		}
+		.desc {
+			color: rgb(83, 105, 140);
+		}
+		img {
+			border-radius: 50%;
+		}
+
+		a {text-decoration: none;}
+
+		.about {
+			width: 800px;
+		}
+
+		.footer {
+			position: fixed;
+			left: 0;
+			bottom: 0;
+			width: 100%;
+			background-color: darkviolet;
+			color: white;
+			text-align: center;
+		}
 	</style>
 </head>
 <body>
-	<div class="text-center mt-4">
-		<h3 class="text-center" >Hello there! I am sumit kushwah</h3>
-		<h4> student of NIT hamirpur.</h4>
-		<p>This site is under developement...</p>
-		<p>Until connect with me on my <a href="https://www.facebook.com/sumit.kushwah.3382">facebook</a> or <a href="https://twitter.com/SumitKu18281654">twitter</a></p>
-		<h6>Be careful stay safe from COVID-19</h6>
+	<div class="container">
+		<div class="profile_image">
+			<img src="./imgs/myphoto_with_work.jpeg" alt="not found">
+		</div>
+		<br>
+		<div class="name">
+			<h1>Sumit Kushwah</h1>
+		</div>
+		<div class="desc">
+			<h2>Just a dev from Agra, India.</h2>
+		</div>
+		<br>
+		<div class="links">
+			<div class="row">
+				<div class="col">
+					<a href="#about">About</a>
+				</div>
+				<div class="col">
+					<a target="_blank" href="https://github.com/sumit-kushwah">Github</a>
+				</div>
+				<div class="col">
+					<a target="_blank" href="https://stackoverflow.com/users/12762389/sumit-kushwah">StackOverflow</a>
+				</div>
+				<div class="col">
+					<a href="linkedin.com/in/sumit-kushwah/">Linkedin</a>
+				</div>
+				<div class="col">
+					<a href="mailto:sumitkushwah1729@gmail.com?Subject=Contact form">Contact</a>
+				</div>
+				
+			</div>
+		</div>
+		<br>
+		<div id="about">
+			<h5>
+				Sumit kushwah is a undergraduate student and software developer from Agra, India with a Integrated Btech in Computer Science and Engineering from the National Institute of Technology Hamirpur.
+			</h5>
+			
+		</div>
+		<br>
+		<div class="resume">
+			<a href="./files/feb-version.pdf" target="_blank"><button class="btn btn-primary">Open Resume</button></a>
+		</div>
+		<br>
+		<div class="row">
+			<div class="col">
+				<h2>Projects</h2>
+				<div class="links">
+					<a target="_blank" href="https://github.com/sumit-kushwah/Mask-detection">Mask detection System</a> <br>
+					<a target="_blank" href="https://smallgames-b79a5.web.app/">Small games</a> <br>
+					<a target="_blank" href="https://github.com/sumit-kushwah/todo">Todo Cli</a> <br>
+					<a target="_blank" href="https://wia-quiz-app.herokuapp.com/index.php">Quiz app</a> <br>
+					<a target="_blank" href="http://covid2019-map.netlify.app/">Covid-19 map website</a> <br>
+				</div>
+			</div>
+			<div class="col">
+				<h2>Coding Profiles</h2>
+				<div class="links">
+					<a target="_blank" href="https://codeforces.com/profile/ksumit">Codeforces</a> <br>
+					<a target="_blank" href="https://www.codechef.com/users/sumit_1729">Codechef</a> <br>
+					<a target="_blank" href="https://github.com/sumit-kushwah">Github</a> <br>
+					<a target="_blank" href="https://www.hackerrank.com/sumitkushwah1729">HackerRank</a> <br>
+				</div>
+			</div>
+		</div>
 	</div>
+
+	<div class="footer">
+		<p style="padding-top: 10px"> © 2021 sumit kushwah 👨‍💻</p>
+	  </div>
 </body>
 </html>
