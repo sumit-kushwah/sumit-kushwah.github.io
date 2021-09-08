@@ -1,10 +1,12 @@
 body {
-  margin-top: 50px;
-  font-family: 'Courier New', Courier, monospace;
-  background: url("./imgs/bg.jpg") no-repeat
-    center center/cover;
+  /* margin-top: 50px; */
+  height: 100vh;
+  text-align: center;
+  font-family: 'Klee One', sans-serif;
+  background-color: #333;
 }
 .desc {
+  font-size: 10px;
   color: rgb(83, 105, 140);
 }
 
