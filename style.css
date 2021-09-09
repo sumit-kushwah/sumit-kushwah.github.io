@@ -29,6 +29,10 @@ a:hover {
   color: coral;
 }
 
+.connect {
+  color: #f2f2f2;
+}
+
 #about {
   text-align: center;
   margin: 0 auto;
